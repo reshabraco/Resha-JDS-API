@@ -1,2 +1,18 @@
-{"name":"nodejs","version":"1.0.0","description":"NodeJS","main":"app.js","scripts":{"test":"echo \"Error: no test specified\" && exit 1"},"author":"rbraco","license":"MIT","dependencies":{"express":"^4.18.1"}}
-
+{
+  "name": "ReshaYudiatama",
+  "version": "1.0.0",
+  "description": "node server api",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "author": "rbraco",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
